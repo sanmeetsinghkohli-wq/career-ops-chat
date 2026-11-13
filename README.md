@@ -33,7 +33,7 @@ Career-Ops Chat is a Claude skill that turns any normal Claude chat into a job-s
 
 **You need:** a Claude account (Free, Pro or Max). On Team or Enterprise accounts, an admin must allow skills.
 
-1. **Download** `career-ops-chat.zip` from [Releases](../../releases). Don't unzip it.
+1. **Download** [`career-ops-chat.zip`](https://github.com/sanmeetsinghkohli-wq/career-ops-chat/raw/main/career-ops-chat.zip). Don't unzip it.
 2. In Claude, open **Settings → Capabilities** and switch on **Code execution and file creation** (called *Create and edit files* in newer Settings). The ATS check needs it.
 3. Go to **Customize → Skills → + → Create skill → Upload a skill** and select the zip.
 4. Make sure **career-ops-chat** is switched **on**.
@@ -112,7 +112,7 @@ career-ops-chat/
     └── CAREER_OPS_COMMIT       # upstream commit the scorer was taken from
 ```
 
-To build the zip yourself:
+`career-ops-chat.zip` in the repo root is the ready-to-upload skill. To rebuild it from the source files:
 
 ```bash
 zip -r career-ops-chat.zip career-ops-chat
